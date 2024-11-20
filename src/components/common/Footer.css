@@ -1,0 +1,13 @@
+.footer-container {
+  border-top: var(--footerLine);
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1700px;
+  margin: auto;
+}

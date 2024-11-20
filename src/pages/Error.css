@@ -1,0 +1,18 @@
+.error-button {
+    min-height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: var(--blueButton);
+    color: var(--white);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.error-button:hover {
+    background-color: var(--blueButtonHover);
+}

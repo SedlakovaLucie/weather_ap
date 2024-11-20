@@ -1,0 +1,40 @@
+.nav-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 15px 30px;
+  background-color: var(--navbarBackground);
+  backdrop-filter: blur(10px);
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1700px;
+  margin: auto;
+}
+
+.logo {
+  width: 35px;
+}
+
+.nav-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.nav-link:hover {
+  color: var(--white);
+  transition: color 0.1s ease;
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 30px;
+  }
+  .nav-container {
+    padding: 15px 20px;
+  }
+}

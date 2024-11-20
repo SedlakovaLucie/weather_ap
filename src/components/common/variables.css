@@ -1,0 +1,17 @@
+:root {
+    --fontColor: #333333;
+    --background-gradient: linear-gradient(to bottom, #3a6ea5, #a6c9e8, #f2f7fc, #ffffff);
+    --footerLine: 1px solid #eaeaea;
+    --navbarBackground: rgba(179, 209, 242, 0.7);
+    --blueButton: #1c74ba;
+    --blueButtonHover: #4a8bc4;
+    --BoxShadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    --greyInputBorder: 1px solid #ccc;
+    --blueInputBorder: 2px solid  #1c74ba;
+    --white: #ffffff;
+    --red: #ff4d4d;
+    --blueButtonDescription: #1c74ba;
+    --whiteDescriptionButton: rgba(255, 255, 255, 0.8);
+    --borderDescriptionButton: 1px solid rgba(173, 216, 230, 0.3);
+    --oneCityBorder: 1px solid #ddd;
+}

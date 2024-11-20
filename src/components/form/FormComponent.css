@@ -1,0 +1,86 @@
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}  
+
+.input-city {
+    min-height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    border: var(--greyInputBorder);
+    box-shadow: var(--BoxShadow);
+    transition: all 0.s ease;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.input-city:focus {
+    outline: none;
+    border: var(--blueInputBorder);
+    box-shadow: var(--BoxShadow);
+    font-size: 1rem;
+}
+
+.input-error {
+    min-height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    border: 2px solid var(--red);
+    box-shadow: var(--BoxShadow);
+    transition: all 0.2s ease;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.input-error:focus {
+    outline: none;
+    border-color: var(--red);
+    box-shadow: var(--BoxShadow);
+    font-size: 1rem;
+}
+
+.button-city {
+    min-height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: var(--blueButton);
+    color: var(--white);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 1rem;
+}
+
+.button-city:hover {
+    background-color: var(--blueButtonHover);
+}
+
+.weather-card {
+    border-radius: 25px;
+    background-color: var(--white);
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--BoxShadow);
+    transition: transform 0.2s ease;
+    margin-bottom: 2rem;
+}
+
+.weather-data p {
+    padding-bottom: 1rem;
+}
+
+.value {
+    font-weight: bold;
+}
+
+.error {
+    color: var(--red);
+    text-align: center;
+}

@@ -1,13 +1,42 @@
-body {
+/* CSS reset */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  list-style: none;
 }
+
+a {
+  color: inherit; 
+  text-decoration: none;
+}
+
+/* Global */
+
+html {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: var(--fontColor);
+  font-size: 18px;
+  margin: auto;
+  min-height: 100%;
+}
+
+body {
+  transition: all 0.7s linear;
+  line-height: 1.5;
+  background: var(--background-gradient);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button, input, select, textarea {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
