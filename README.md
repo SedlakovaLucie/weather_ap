@@ -1,7 +1,8 @@
 # Weather app 🌦️
 ## Popis
 Aplikace pro zobrazení aktuálního počasí, postavená na Reactu a stylovaná pomocí CSS. Homepage zobrazuje aktuální počasí pro pět vybraných hlavních měst a v sekci Ukazatelé počasí mohou uživatelé přepínat mezi různými meteorologickými parametry pomocí toggle tlačítek, čímž se mění zobrazený obsah. Na druhé stránce lze zadat jakékoliv město na světě a získat aktuální data prostřednictvím API. 
-Live Demo: https://sunandstorm.netlify.app
+**Live Demo:**  
+https://sunandstorm.netlify.app
 ## Spuštění projektu
 Pro spuštění této React aplikace je potřeba mít na počítači nainstalovaný Git a Node.js (včetně npm). Postupujte následovně:
 ```bash
