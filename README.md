@@ -9,7 +9,7 @@ https://sunandstorm.netlify.app
 Pro spuštění této React aplikace je potřeba mít na počítači nainstalovaný Git a Node.js (včetně npm). Postupujte následovně:
 ```bash
 # Naklonujte tento repozitář
-https://github.com/SedlakovaLucie/weather_ap.git
+https://github.com/SedlakovaLucie/weather_app.git
 
 # Vstupte do vytvořené složky
 cd weather_ap
