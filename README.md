@@ -6,7 +6,7 @@ Aplikace pro zobrazení aktuálního počasí, postavená na Reactu a stylovaná
 https://sunandstorm.netlify.app
 
 ## Spuštění projektu
-Pro spuštění této React aplikace je potřeba mít na počítači nainstalovaný Git a Node.js (včetně npm). Postupujte následovně:
+Pro spuštění této React aplikace je potřeba mít nainstalovaný Git a Node.js (včetně npm). Postupujte následovně:
 ```bash
 # Naklonujte tento repozitář
 https://github.com/SedlakovaLucie/weather_app.git
