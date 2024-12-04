@@ -15,7 +15,7 @@ const Cities = () => {
   const [error, setError] = useState("");
   const errorMessage =
     "Počasí momentálně nelze načíst. Zkontrolujte připojení nebo to zkuste později.";
-  const apiKey = "4235e9f6e8d421153ed856941573528f";
+    const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
 
   const getWeatherData = async (city) => {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
@@ -33,15 +33,15 @@ const Cities = () => {
     }
   };
 
-  const fetchWeatherData = useCallback(async () => {
+  const fetchWeatherData = async () => {
     const promises = cityNames.map((city) => getWeatherData(city));
     const results = await Promise.all(promises);
     setWeatherData(results);
-  }, []);
+  };
 
   useEffect(() => {
     fetchWeatherData();
-  }, [fetchWeatherData]);
+  }, []);
 
   return (
     <div className="cities-section">
