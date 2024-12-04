@@ -1,5 +1,5 @@
 import "./Cities.css";
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect } from "react";
 import OneCity from "./OneCity";
 import cityImages from "./CityImages";
 
@@ -15,7 +15,7 @@ const Cities = () => {
   const [error, setError] = useState("");
   const errorMessage =
     "Počasí momentálně nelze načíst. Zkontrolujte připojení nebo to zkuste později.";
-    const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
+  const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
 
   const getWeatherData = async (city) => {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;

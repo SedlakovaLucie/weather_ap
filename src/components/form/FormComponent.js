@@ -14,7 +14,7 @@ const FormComponent = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
   const cityRef = useRef("");
-  const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY; 
+  const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
   const isValidCityName = (input) => /^[a-zA-Zá-žÁ-Ž\s]+$/.test(input);
 
   const getWeather = async () => {
